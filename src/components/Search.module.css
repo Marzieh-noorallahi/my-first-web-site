@@ -1,0 +1,27 @@
+.container {
+  background-color: rgb(255, 220, 154);
+  padding: 80px 150px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 40px;
+  border-radius: 10px;
+}
+
+.container p {
+  font-size: 4rem;
+  font-weight: bold;
+  color: rgb(117, 115, 115);
+}
+
+.container input {
+  width: 400px;
+  height: 50px;
+  border-radius: 10px;
+  border: none;
+  padding: 10px;
+}
+
+.container input::placeholder{
+    font-size: 1rem;
+}
